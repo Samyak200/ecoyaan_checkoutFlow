@@ -21,14 +21,23 @@ This prevents the user from proceeding with incorrect information.
 
 "TO RUN LOCALLY"
 
+cd frontend
 npm install
 npm run dev
 
 View in Browser:
 Go to http://localhost:3000/cart to see the checkout flow in action.
 
+view in vercel:
+
+ecoyaancheckoutflow.vercel.app
+
 "PROJECT OVERVIEW"
+
 /cart: Fetches mock product data via SSR and displays the initial summary.
+
 /shipping: Collects user details with real-time validation.
+
 /payment: Final review of the order and simulated payment success state.
+
 /store: Centralized Zustand store managing the application state.
